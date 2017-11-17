@@ -1,10 +1,10 @@
 {
-  "name": "node-express-mongoose",
+  "name": "Second Chance",
   "description": "A boilerplate application for express mongoose",
   "version": "1.0.0",
   "author": {
-    "name": "Madhusudhan Srinivasa",
-    "email": "me@madhums.me"
+    "name": "Mays",
+    "email": ""
   },
   "engines": {
     "node": ">=6.x"

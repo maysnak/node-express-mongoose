@@ -5,6 +5,7 @@
  */
 
 const home = require('../app/controllers/home');
+const pages = require('../app/controllers/pages');
 
 /**
  * Expose
@@ -13,6 +14,10 @@ const home = require('../app/controllers/home');
 module.exports = function (app, passport) {
 
   app.get('/', home.index);
+  app.get('/page1', pages.page1);
+  app.get('/page2', pages.page2);
+  app.get('/page3', pages.page3);
+  app.get('/page4', pages.page4);
 
   /**
    * Error handling
